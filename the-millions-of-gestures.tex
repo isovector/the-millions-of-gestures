@@ -1,0 +1,94 @@
+\documentclass[]{book}
+\usepackage{todonotes}
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+
+
+\def\signed #1{{\leavevmode\unskip\nobreak\hfil\penalty50\hskip2em
+  \hbox{}\nobreak\hfil(#1)%
+  \parfillskip=0pt \finalhyphendemerits=0 \endgraf}}
+
+\newsavebox\mybox
+\newenvironment{aquote}[1]
+  {\savebox\mybox{#1}\begin{quote}}
+  {\signed{\usebox\mybox}\end{quote}}
+
+%opening
+\title{The Millions of Gestures}
+\author{Sandy Maguire}
+
+\begin{document}
+
+\frontmatter
+\maketitle
+
+\tableofcontents
+
+\mainmatter
+
+\chapter{Introduction}
+
+\begin{aquote}{Chris Kelvin, Solaris, 2002}
+  I followed the current. I was silent, attentive. I made a conscious effort to
+  smile, nod, stand, and perform the million of gestures that constitute life on
+  earth. I studied these gestures until they became reflexes again.
+\end{aquote}
+
+
+\chapter{Starting Again}
+
+In January of 2018, at the age of 27, I made the unconventional decision to
+declare myself "retired indefinitely." This was somewhat of a shock to most
+people in my life.
+
+On paper, my life was going about as well as could be expected. I had a
+prestigious degree from a prestigious university. I had worked at several of the
+top companies in the world, and had strong recommendations from each of them. I
+was well on my way to becoming a distinguished member of my field. By all
+accounts, I had a bright career ahead of me.
+
+But there was just one problem; that wasn't the life I wanted. What I wanted, I
+wasn't sure, but it certainly wasn't that. The evidence of it was all around me;
+with coworkers twenty years my senior working the same jobs as me.
+
+I could too easily imagine myself waking up at 50, wondering where the hell my
+life had gone. I'd consult my bucket-list, and realize that I hadn't made any
+progress on it in years, and now I had too many responsibilities and too poor
+health to do the things I'd always promised myself I'd do.
+
+No thanks.
+
+Despite my best intentions, I found myself having been sucked into the system. I
+was working for the man in a job I hated. I was doing it to make money that I
+didn't need, in order to buy things I didn't actually want. Like many others, I
+had convinced myself that "this is just what being an adult is." I had resigned
+myself to this unsatisfying life that I had unintentionally crafted for myself.
+
+It wasn't the life I'd have designed for myself if I had been trying. To be
+honest, I wasn't entirely sure what that life would look like, but I was willing
+to find out. One of the biggest problems of modern society is that it doesn't
+give us many chances to try different things. Sure, you can order the salmon
+instead of the chicken when you go out to dinner, but it's not like you can just
+decide to see what happens if we give up democracy for a weekend or something.
+The existing order is too deep-rooted and powerful for that.
+
+But I wasn't happy where I was, and I didn't know where I wanted to be. The only
+solution in that case is to experiment, and so I considered my retirement to be
+an exercise in the scientific method.
+
+The way I looked at it, it wasn't a particularly costly test. Worst case, it
+wouldn't work out, and I could return to the society I left behind with my tail
+between my legs, begging to be let back in. I had constructed that life once, by
+accident nevertheless, so presumably I could rebuild it if I were actually
+\textit{trying}.
+
+Like many people, I have a bad habit of not being particularly good at putting
+my money where my mouth is. \todo{terrible sentence} I'm sure that you hear
+complaints weekly from your friends about their bad jobs, relationships or
+what-have-you, but despite their comments that they're going to make a change,
+things rarely do. Out of fear of continuing to live by status-quo forever, I
+decided to pull the trigger, and quit my job immediately. I didn't have a plan;
+I just knew I needed to make a change.
+
+\end{document}

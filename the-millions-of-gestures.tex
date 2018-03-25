@@ -5,6 +5,9 @@
 \usepackage [autostyle, english = american]{csquotes}
 \MakeOuterQuote{"}
 
+\newcommand{\foreign}[1]{\textit{#1}}
+\newcommand{\emphasis}[1]{\textit{#1}}
+
 
 \def\signed #1{{\leavevmode\unskip\nobreak\hfil\penalty50\hskip2em
   \hbox{}\nobreak\hfil(#1)%
@@ -15,9 +18,10 @@
   {\savebox\mybox{#1}\begin{quote}}
   {\signed{\usebox\mybox}\end{quote}}
 
-%opening
-\title{The Millions of Gestures}
+\title{\textbf{\LARGE The Millions of Gestures}\\{\Large Navigating a
+Quarter-life Crisis}}
 \author{Sandy Maguire}
+\date{}
 
 \begin{document}
 
@@ -26,11 +30,105 @@
 
 \tableofcontents
 
+\linenumbers
+
+\show{\chapter}
+
+\chapter*{Preface}
+\addcontentsline{toc}{chapter}{Preface}
+
+The wisdom of our elders has always been a fascinating idea to me.
+
+In my early twenties, I used to play a game. Whenever I had some time alone with
+someone older than me, I'd ask them the question: "what's something you wished
+you knew when you were my age?" The goal was one day to write a book about the
+answers I got, but it became increasingly evident that nobody would read such a
+book. The reason was simple: the things people would answer were always one of
+two things.
+
+"I wish I had been more confident."
+
+"I wish I had known to start investing."
+
+Good advice to be sure, but not exactly book-worthy. Everybody already knows
+they should be investing (whether or not they do is a different beast
+altogether), and telling someone to be more confident isn't very actionable. If
+someone isn't already confident, telling them to be more so doesn't actually
+help. If anything, it might hurt.
+
+\todo{reword this puppy} The concept of a quarter-life crisis is a relatively
+new one, identified as such possibly only with Generation X. Since then, it
+seems only to be growing in prevalence, particularly among young North American
+professionals. According to the first Google result I came across, something
+like 75\% of Millennial respondents on a Linkedin survey (aka "yuppies") said
+they had experienced or were experiencing a quarter-life crisis.
+
+Although I didn't respond to the Linkedin survey, I found myself (and the
+majority of my friends) struggling through a crisis for several years. I was
+jumping from job to job, from city to city, trying my best to randomly select
+the proper combination of variables I thought would bring the much-desired
+meaning to my life. It goes without saying that randomly flipping switches did
+nothing to assuage my problems.
+
+In desperation, I took a month off of work and went traveling. It's cliche, I
+know, but there might be a good reason why people look to traveling in an
+attempt to find themselves. What I found, however, was just a bunch of people as
+lost as I was. And we talked, sometimes for hours, helping one another over the
+obstacles we'd already worked out for ourselves.
+
+The idea of a sudden epiphany, I think, is mostly a myth. Big ideas don't come
+from nowhere, they're constructed and refined, slowly and surely. The seeds of
+them come from a chance utterance of an acquaintance, or from a random passage
+in a book. Big ideas are refined by going down to the cafe, spending a lot of
+time writing in your notebook, and buying more coffees than is likely healthy.
+In other words, you need to be open to new ideas, and when you see the
+glimmering of something great, you need to be prepared to dive into the workshop
+of your mind and hammer it into something worthwhile.
+
+This was the insight I was missing. Instead of randomly changing variables in my
+life hoping for something more, I should have been biding my time with a
+notebook and a cup of strong coffee. I should have been approaching my life with
+the same diligence I apply to my work.
+
+\emphasis{We can be the authors of our own life stories.} It sounds obvious in
+retrospect, but without a doubt, this is the most influential idea I've ever
+come across. Hearing the idea isn't enough though; it's internalizing it that
+really counts. That's the hard part.
+
+Without realizing it, all those years ago when I was asking people what they
+wished they had known, I was looking for a particular answer. I didn't know what
+it was, but there was something missing in my soul, something I was desperately
+trying to find. It's this. We can be the authors of our own life stories.
+
+We can, but it's hard. The system isn't exactly set up to help us do that.
+Western culture, for all its good points, doesn't empower its adherents in this
+way. \todo{empower twice} The American Dream is enticing -- if you work hard
+enough, you can accumulate great wealth -- but this presupposes that great
+wealth is a worthy thing to accumulate, and leads us to believe that working
+hard is virtuous.
+
+The American Dream is ubiquitous in North American culture, to the extent that
+it's often invisible. While it's not a bad thing \foreign{per se}, we should
+always be hesitant about reasoning in the presence of unseen influences. As a
+cultural factor, it's clearly been successful, but we should keeping in mind
+that it's very clearly a product of the Industrial Revolution.
+
+Recall that this was a time characterized by working insanely long hours under
+terrible conditions in order to stamp out indistinguishable goods, all in order
+to become richer than the total sum of humans previously. Basing our society,
+and by extension a large part of our identities, around the idea that people are
+fungible, that the economy should be grown for its own sake, and that hard work
+is desirable, seems, well, unwise to put it gently.
+
+This strikes me as the primary cause of quarter-life crises. I know too many
+people who work jobs they hate, in order to make money they don't need, so they
+can buy things they don't actually want. To a large degree, our society defines
+success by how big our house is, what car we drive, how recently our last
+promotion was, and by how successful our children are by the same metrics.
+
+
 \mainmatter
 
-\linenumbers
-% \renewcommand{\makeLineNumber}{\llap{\linenumberfont\rlap{\LineNumber}\hspace{1cm}}}
-% \makeLineNumberEven \fi }
 
 \chapter{Introduction}
 
@@ -170,7 +268,7 @@ The way I looked at it, it wasn't a particularly costly test. Worst case, it
 wouldn't work out, and I could return to the society I left behind with my tail
 between my legs, begging to be let back in. I had constructed that life once, by
 accident nevertheless, so presumably I could rebuild it if I were actually
-\textit{trying}.
+\emphasis{trying}.
 
 Like many people, I have a bad habit of not being particularly good at putting
 my money where my mouth is. \todo{terrible sentence} I'm sure that you hear
@@ -191,7 +289,7 @@ and now. But maybe something has hit a chord in your spirit. Maybe you too have
 some unnamed dissatisfaction in the direction your life has been taking.
 
 Fortune favors the bold. If you're unhappy with some facet of your existence,
-\textit{do something about it.} Don't let it fester within you, exploding in
+\emphasis{do something about it.} Don't let it fester within you, exploding in
 twenty years in the form of a mid-life crisis. At that point it might be too
 late. So take a chance, get outside of your comfort zone, and let's go for one
 hell of a trip.
@@ -210,15 +308,15 @@ honest, not much of it stuck with me. There was one exception.
 
 The exercise that I remember was a meditation to visualize one of our perfect
 futures. The instructor was clear to emphasize that we were looking for
-\textit{one} of our perfect futures, implying there might be many, that it might
-not be unique. This was already somewhat of a head-trip to me; I'd never
+\emphasis{one} of our perfect futures, implying there might be many, that it
+might not be unique. This was already somewhat of a head-trip to me; I'd never
 realized that there might be many, exceptionally different futures for me, all
 of which I might describe as being perfect.
 
 This was an epiphany, and being phrased like this allowed me to be open to
 futures I would have otherwise ignored as being "out of hand." The human brain
 is one that likes to feel smart, powerful and in-control of its own destiny, and
-so if I had to choose \textit{the} perfect future, it would have been in-line
+so if I had to choose \emphasis{the} perfect future, it would have been in-line
 with all of the life choices I had made up to that point.
 
 But instead I was given the great gift of needing to look only for any of my
@@ -268,7 +366,42 @@ wasn't something you'd have expected to be there.
 
 If so, that's great. I want you to focus on that surprising thing. The point of
 the exercise is to realize that even if you're happy with the way things are
-going, it's not the only way that things \textit{could} go. Keep this in mind.
+going, it's not the only way that things \emphasis{could} go. Keep this in mind.
+
+
+\chapter{Minimalism}
+
+keep your identity small
+* or if not possible, at least add to your identity "i take chances"
+* and "i am capable of changing"
+
+keep your possessions small
+* this is hard for americans
+* the things you own are not what define you
+  * well they sort of do, but only in a BAD way
+  * they keep you rooted
+* my story about shluffing boxes around forever
+
+maybe this should be called "mindset"
+
+
+\chapter{Finding a Space}
+
+\chapter{Financing Yourself}
+
+holy shit america is so fucking expensive
+i live on about \$35 dollars a day, and i am living very lavishly
+
+
+\chapter{Putting Down Roots}
+
+rich american + cultural appropriation? no, go fuck yourself
+
+if you make an effort to fit in, people will love you.
+
+learn the local language, follow the local culture, make friends with locals
+
+the goal is to integrate. it's ok to have expat friends, but keep them under 50\%
 
 
 \end{document}

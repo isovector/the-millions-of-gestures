@@ -1,11 +1,13 @@
 \documentclass[]{book}
 \usepackage{todonotes}
+\usepackage{amsmath}
 \usepackage[switch]{lineno}
 \usepackage [english]{babel}
 \usepackage [autostyle, english = american]{csquotes}
 \MakeOuterQuote{"}
 
 \newcommand{\foreign}[1]{\textit{#1}}
+\newcommand{\undefine}[1]{\let#1\undefined}
 
 
 \def\signed #1{{\leavevmode\unskip\nobreak\hfil\penalty50\hskip2em
@@ -17,7 +19,7 @@
   {\savebox\mybox{#1}\begin{quote}}
   {\signed{\usebox\mybox}\end{quote}}
 
-\title{\textbf{\LARGE The Millions of Gestures}\\
+\title{\textbf{\LARGE Millions of Gestures}\\
        {\Large{Finding Meaning in the 21st Century}}}
 \author{Sandy Maguire}
 \date{}
@@ -389,6 +391,11 @@ going, it's not the only way that things \emph{could} go. Keep this in mind.
 \todo{what are your comparative advantages?}
 \todo{what do you want to dedicate your life to?}
 
+\todo{maybe this should be more 8760 hours kind of stuff}
+\todo{and then move this chapter + some goal factoring stuff into its own}
+
+
+
 \chapter{Minimalism}
 
 What does the word "minimalism" mean to you?
@@ -397,9 +404,10 @@ What does the word "minimalism" mean to you?
 \todo{story about schlepping boxes}
 
 I'm not arguing that living minimally is the best strategy for everyone, always,
-but I am suggesting that it's a fantastic \emph{default} lifestyle choice. The
-way that most people accumulate stuff is by accident; they'll buy something on a
-whim, or receive it as a gift. By default, we keep things. We hoard them.
+forever, but I am suggesting that it's a fantastic \emph{default} lifestyle
+choice. The way that most people accumulate stuff is by accident; they'll buy
+something on a whim, or receive it as a gift. By default, we keep things. We
+hoard them.
 
 There are a few obvious downsides to owning lots of stuff. The first is that
 there is an implicit tax you need to pay for owning things. Although you'll have
@@ -412,10 +420,10 @@ The second obvious downside to owning stuff is that it becomes an obstacle in
 the way of changes. It's a lot easier to move to a new apartment if you can
 leave all the furniture behind and only have two suitcases to your name. It's a
 lot easier to go on vacation if nobody needs to sit your house and keep your dog
-alive in your absence. These are not insurmountable problems by any means, but
-the easier a change is to make, the more likely you are to do it. Not every
-change is an improvement, but every improvement is a change, and that's worth
-keeping in mind.
+alive. These are not insurmountable problems by any means, but the easier a
+change is to make, the more likely you are to do it. Not every change is an
+improvement, but every improvement is a change, and that's worth keeping in
+mind.
 
 Last, and by far the most damning, the possession of things will keep you rooted
 to your old self. The guitar that you bought on a whim and promised yourself
@@ -458,10 +466,65 @@ our comfort zones.
 
 \chapter{Finding a Space}
 
+
+
 \chapter{Financing Yourself}
 
-holy shit america is so fucking expensive
-i live on about \$35 dollars a day, and i am living very lavishly
+\todo{what do we mean by retirement?}
+
+Something I knew intellectually, but never really appreciated was just how damn
+expensive it is to live in America. Like, it's actually crazy. For example, what
+I paid in rent on my modest, one-room apartment in Denver was a little more than
+three months' of full time work at minimum wage in the Baltics.
+
+Right now I live on about \$25 dollars a day, which includes food, a casual beer
+here and there, and living in the most gorgeous apartment I've ever had. And the
+president of the country is my neighbor -- no kidding. We haven't socialized
+yet, but I plan to invite her to board game night if I run into her on the
+street. She probably won't come, but what do I have to lose?
+
+Anyway, \todo{I'm not eating ramen.} I'm not particularly trying to be frugal
+here, though I do try to keep my spending below \$10 a day unless I have a
+really good reason not to.
+
+This is a powerful thing to internalize. \$25 starts to feel like \emph{a lot
+more money} when you realize you can live pretty lavishly for a day on it. All
+of a sudden, that artisanal sandwich you paid \$18 for last week feels like even
+more of a rip-off, doesn't it?
+
+I found myself starting to measure purchases not in terms of "dollars" but in
+"days of retirement." It's a lens that really puts life into perspective. A \$70
+gym membership is obviously money well-spent, while \$600 to lease a car starts
+to beg whether maybe car-ownership is really worth a month of your retirement.
+Would I rather buy this \$7 beer or take the morning off?
+
+\todo{focus on this point} It's pretty amazing what dumb shit we end up spending
+money on, because it doesn't feel like a lot of dollars. But when viewed through
+this lens, every dollar you spend takes an hour out of your retirement fund.
+Damn. Let that sink in for a minute or two.
+
+If you don't want to do any multiplication, I put together a (very) rough chart
+corresponding to how much retirement you're giving up for some amount of money.
+These numbers are more to give you an approximation and are designed to be
+easy-to-remember rather than "correct."
+
+\newcommand{\xx}[2]{\$#1 &\quad\iff\quad \text{#2}\\}
+\begin{align*}
+  \xx{1}{one hour}
+  \xx{10}{one work day (8 hours)}
+  \xx{25}{one full day (24 hours)}
+  \xx{200}{one week}
+  \xx{750}{one month}
+  \xx{2\,000}{one quarter}
+  \xx{4\,500}{half a year}
+  \xx{10\,000}{a year}
+\end{align*}
+\undefine\xx
+
+A good way to think about purchasing something is to first consult this chart,
+and then seriously consider whether you'd rather have the thing in front of
+your, or the corresponding amount of time to spend in retirement.
+
 
 
 \chapter{Putting Down Roots}
